@@ -7,7 +7,7 @@ npm install simple-redux-normalizr --save
 
 ## Example
 
-```
+```js
 import { normalize, denormalize, getItem } from 'simple-redux-normalizr';
 
 const arr = [
