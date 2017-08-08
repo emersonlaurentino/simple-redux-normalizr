@@ -1,6 +1,4 @@
-import { validateArr } from './utils/validates';
-
-export const normalize = (input, key) => validateArr(input).reduce((result, item) => {
+export const normalize = (input, key) => input.reduce((result, item) => {
   result[item[key]] = item;
 
   return result;
