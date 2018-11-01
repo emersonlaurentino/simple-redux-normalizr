@@ -1,6 +1,6 @@
 {
   "name": "simple-redux-normalizr",
-  "version": "0.0.2-3",
+  "version": "0.1.0",
   "description": "Normalizes and denormalizes Arrays for Redux",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
