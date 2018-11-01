@@ -1,0 +1,2 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(exports):"function"==typeof define&&define.amd?define(["exports"],n):n(e.simpleReduxNormalizr={})}(this,function(e){e.normalize=function(e,n){return e.reduce(function(e,t){return e[t[n]]=t,e},{})},e.denormalize=function(e){return Object.values(e)},e.getItem=function(e,n,t){return t?e[n][t]:e[n]}});
+//# sourceMappingURL=index.umd.js.map
